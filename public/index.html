@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReactJS Weather</title>
+  <style media="screen">
+    html * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica', Arial;
+      margin: 0;
+      padding: 0;
+    }
+    .main-nav {
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      background-color: #f2f2f2;
+    }
+    .main-nav > .logotype {
+      margin: 0 16px 0 0;
+      color: #122222;
+    }
+    .main-nav > a {
+      color: #2d9fb9;
+      margin-right: 8px;
+      padding: 16px 8px;
+      text-decoration: none;
+    }
+    .main-nav > a.-active {
+      font-weight: bold;
+      border-bottom: 2px solid;
+    }
+    .screen {
+      max-width: 600px;
+      margin: 48px auto;
+      text-align: center;
+    }
+    .screen .main-title {
+      font-size: 48px;
+      color: #122222;
+      margin-bottom: 0
+    }
+    .screen .result {
+      color: #353535;
+      font-weight: bold;
+    }
+    .form {
+      margin-bottom: 32px;
+    }
+    .form .input {
+      padding: 8px;
+      border: 1px solid #48c4e0;
+      font-size: 16px;
+      width: 61%;
+    }
+    .form .btn {
+      color: white;
+      cursor: pointer;
+      padding: 16px;
+      background-color: #48c4e0;
+      border: 0;
+      font-size: 16px;
+      width: 61%;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="app"></div>
+
+  <script src="bundle.js"></script>
+
+</body>
+</html>
