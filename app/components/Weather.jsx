@@ -53,7 +53,7 @@ var Weather = React.createClass({
 
     return(
       <div className="screen weather-screen">
-        <h1 className="main-title text-center">Get Weather !</h1>
+        <h1 className="page-title text-center">Get Weather !</h1>
         <WeatherForm newSearch={this.handleSearch} />
         {renderMessage()}
         {modalError()}

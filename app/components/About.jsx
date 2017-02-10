@@ -3,7 +3,7 @@ var React = require('react');
 var About = () => {
   return(
     <div className="screen about-screen">
-      <h1 className="main-title text-center">About</h1>
+      <h1 className="page-title text-center">About</h1>
       <p>
         Application developed in the course Complete ReactJS Course.
         Here are some tools and codes used during the development of this app:

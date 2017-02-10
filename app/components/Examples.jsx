@@ -4,7 +4,7 @@ var {Link} = require('react-router');
 var Examples = () => {
   return(
     <div className="screen examples-screen">
-      <h1 className="main-title text-center">Examples</h1>
+      <h1 className="page-title text-center">Examples</h1>
       <p>Here are some examples for you to try out.</p>
       <ol>
         <li>
